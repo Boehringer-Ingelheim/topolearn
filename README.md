@@ -1,6 +1,6 @@
 # TopoLearn
 
-This is the code for the publication "The topology of Molecular Representations in Machine Learning" [paper link]. Below you can find details how to use the python package and how to reproduce the plots and results of the paper.
+This is the code for the publication "The topology of Molecular Representations in Machine Learning" [paper](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-025-01045-w). Below you can find details how to use the python package and how to reproduce the plots and results of the paper.
 
 
 ## Quick-Setup
@@ -23,6 +23,7 @@ tl.compute_score(X, sim_metric=sim_metric, clip=True)
 
 # Output: 0.5690018080283844
 ```
+**Important note**: As with every machine learning model, the predictions will only make sense on data following the same distribution as the training data (i.e. similar dataset sizes, similar representations ...)
 
 ## Advanced-Setup
 
